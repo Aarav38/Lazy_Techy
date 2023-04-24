@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    cout<<"hi";
+    cout<<"aa";
     return 0;
-    fvfedbegn
 }
