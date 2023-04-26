@@ -1,5 +1,7 @@
+//LCD and GCD calculator by team LAZY_TECHY
 #include <iostream>
 using namespace std;
+
 
 class MathUtils {
 public:
