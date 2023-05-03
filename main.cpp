@@ -17,3 +17,24 @@ private:
     }
 
 public:
+// constructor
+    Calculator(int x, int y) {
+        a = x;
+        b = y;
+    }
+
+    // method to calculate LCM
+    int lcm() {
+        return abs(a * b) / gcd(a, b);
+    }
+
+    // method to calculate GCD
+    int gcd() {
+        return gcd(abs(a), abs(b));
+    }
+};
+
+int main() {
+    int n;
+    cout << "Enter the number of integers: ";
+    cin >> n;
