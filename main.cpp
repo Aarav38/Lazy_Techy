@@ -30,7 +30,7 @@ public:
 
     // method to calculate GCD
     int gcd() {
-        return gcd(abs(a), abs(b));
+        return gcd(abs(a), abs(b)); // Method Overloading
     }
 };
 
