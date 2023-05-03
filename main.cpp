@@ -1,6 +1,6 @@
 //LCD and GCD calculator by Team LAZY_TECHY
 #include <iostream>
-#include <algorithm>
+
 
 using namespace std;
 
