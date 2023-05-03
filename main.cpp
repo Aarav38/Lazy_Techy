@@ -38,3 +38,22 @@ int main() {
     int n;
     cout << "Enter the number of integers: ";
     cin >> n;
+    
+    int numbers[n];
+    cout << "Enter " << n << " integers: ";
+    for (int i = 0; i < n; i++) {
+        cin >> numbers[i];
+    }
+
+    int gcd_result = numbers[0];
+    int lcm_result = numbers[0];
+    for (int i = 1; i < n; i++) {
+        gcd_result = Calculator(gcd_result, numbers[i]).gcd();
+        lcm_result = Calculator(lcm_result, numbers[i]).lcm();
+    }
+
+    cout << "The GCD of the " << n << " integers is: " << gcd_result << endl;
+    cout << "The LCM of the " << n << " integers is: " << lcm_result << endl;
+
+    return 0;
+}
