@@ -25,7 +25,7 @@ public:
 
     // method to calculate LCM
     int lcm() {
-        return abs(a * b) / gcd(a, b);
+        return abs(abs(a * b) / gcd(a, b));
     }
 
     // method to calculate GCD
